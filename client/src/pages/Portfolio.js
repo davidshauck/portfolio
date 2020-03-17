@@ -16,8 +16,17 @@ function Portfolio() {
   return (
     <div className="carousel-container">
     <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel.Item>
+      <a href="https://codehort.herokuapp.com/">
+        <img
+          className="d-block w-100 image"
+          src={Codehort}
+          alt="Third slide"
+        />
+      </a>
+      </Carousel.Item>
       <Carousel.Item>
-        <a href="http://www.cnn.com">
+        <a href="https://bananaknifefight.herokuapp.com/">
           <img
             className="d-block w-100 image"
             src={BananaKnifeFight}
@@ -26,7 +35,7 @@ function Portfolio() {
         </a>
       </Carousel.Item>
       <Carousel.Item>
-      <a href="http://www.cnn.com">
+      <a href="https://davidshauck.github.io/Crystal-Collector/">
         <img
           className="d-block w-100 image"
           src={CrystalCountdown}
@@ -35,7 +44,7 @@ function Portfolio() {
        </a>
       </Carousel.Item>
       <Carousel.Item>
-      <a href="http://www.cnn.com">
+      <a href="https://davidshauck.github.io/Trivia-Game/">
         <img
           className="d-block w-100 image"
           src={JavascriptJeopardy}
@@ -44,19 +53,10 @@ function Portfolio() {
       </a>
       </Carousel.Item>
       <Carousel.Item>
-      <a href="http://www.cnn.com">
+      <a href="https://davidshauck.github.io/Word-Guess-Game/">
         <img
           className="d-block w-100 image-black-border"
           src={NapkinHangman}
-          alt="Third slide"
-        />
-      </a>
-      </Carousel.Item>
-      <Carousel.Item>
-      <a href="http://www.cnn.com">
-        <img
-          className="d-block w-100 image"
-          src={Codehort}
           alt="Third slide"
         />
       </a>

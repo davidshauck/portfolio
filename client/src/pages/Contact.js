@@ -73,10 +73,6 @@ class Contact extends Component {
       
   };
 
-
-
-  //Obj.keys, then loop over that and push the 'true' to an array
-
   render() {
     return (
       <div className="list-overflow-container register-box">

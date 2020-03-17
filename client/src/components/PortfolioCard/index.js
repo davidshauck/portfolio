@@ -1,5 +1,4 @@
 import React from "react";
-// import "./studentCard.css";
 
 function PortfolioCard(props) {
   return (

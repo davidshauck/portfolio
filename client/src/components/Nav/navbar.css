@@ -1,0 +1,42 @@
+/* #navbarNav {
+    text-align: right;
+} */
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    letter-spacing: 5px;
+}
+
+.navbar-buttons {
+    font-family:"Mark","Avenir","Helvetica","Arial",sans-serif;
+    font-size: 13px;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+    white-space: nowrap;
+    color: white !important;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    float: right;
+    color: white !important;
+}
+
+.signup-button {
+    font-family:"Mark","Avenir","Helvetica","Arial",sans-serif;
+    color: white;
+    font-size: 13px !important;
+    /* border-radius: 20px 20px 20px 20px !important;
+    padding: 5px 15px 5px 15px !important; */
+}
+
+li {
+    margin: 0 5px 0 5px;
+}
+
+ul {
+    text-decoration: none;
+}

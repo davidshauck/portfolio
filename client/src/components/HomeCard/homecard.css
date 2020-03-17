@@ -1,0 +1,42 @@
+h2 {
+    font-size: 30px !important;
+    font-family:"Mark","Avenir","Helvetica","Arial",sans-serif;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+.subhead {
+    font-size: 13px;
+    margin-bottom: 30px;
+    text-align: left;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+}
+
+.main-title {
+  Font-family: "Mark","Avenir","Helvetica","Arial",sans-serif;
+  font-size: 150px;
+  text-align: right;
+  color: orange;
+  text-transform: lowercase;
+  display: inline-block;
+  margin-top: 10%;
+}
+
+.homebox {
+  /* background-color: rgba(248, 245, 245, 0.6) !important; */
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 5%;
+}
+
+.main-subhead {
+  color: white;
+  text-align: left;
+  display: inline-block;
+  letter-spacing: 4px;
+}

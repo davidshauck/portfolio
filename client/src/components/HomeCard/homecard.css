@@ -21,7 +21,7 @@ h2 {
   Font-family: "Mark","Avenir","Helvetica","Arial",sans-serif;
   font-size: 150px;
   text-align: right;
-  /* color: orange; */
+  color: orange;
   text-transform: lowercase;
   display: inline-block;
   margin-top: 10%;

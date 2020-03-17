@@ -19,16 +19,11 @@ body {
 .carousel-container {
     text-align: center;
     padding: 0 15% 0 15%; 
-    /* border: 20px solid white; */
+    margin-top: 5%;
 }
 
 .image {
     border: 20px solid white;
-    border-radius: 6px;
-}
-
-.image-black-border {
-    border: 20px solid black;
     border-radius: 6px;
 }
 
